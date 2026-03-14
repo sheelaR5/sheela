@@ -1,0 +1,8 @@
+name: sheela pipeline
+on: push
+jobs:
+  My-test-job:
+    runs-on:ubuntu-latest
+    steps:
+    - name: message
+      run: echo"hello sheela"
